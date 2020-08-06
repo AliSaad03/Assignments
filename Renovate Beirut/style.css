@@ -99,9 +99,40 @@ header {
       opacity: 1;
   }
 }
+
+.donate-button {
+  cursor: pointer;
+  background-color: #ed1c09;
+  color: #ffffff;
+  border: 0;
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 900;
+  border-radius: 15px;
+}
+
+.donate-button:active {
+  transform: scale(0.95);
+}
+
+.donate-button:focus {
+  outline: 0;
+}
+
+.donate-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.donate-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
 /* end banner */
 
 /* end header */
+
 
 
 /*mission*/
